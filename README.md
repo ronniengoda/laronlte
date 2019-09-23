@@ -1,9 +1,12 @@
-# laronlte
-
 <!--LaRon Dashboard Framework. Author: Ronald Ngoda Email: ronniengoda@gmail.com Website: https://ronaldngoda.info Phone: +254708344101-->
 
 # LaRon Appgini Dashboard Framework
 >This is an appgini dashboard framework that uses adminLTE to easily generate an admin dashboard with nice looking cards for your appgini applications.You can easily customize the look and feel to suit your needs.Feel free to do whatever you want with it.Getting started is easy in two simple steps.
+### Change Log
+-Add new feature on cards so that you can quickly add new erecord from the home page <br>
+-Added Tooltips on cards view details and add new <br>
+-You can now customize the links of your cards and menu items in the configuration file using the $DVlink variable.<br>
+-Added option to hide or show the label counters on the side nav menu from the configuration file.<br>
 
 >## Getting started
  1.Copy the laronlte.zip file into your appgini project directory and extract it in there.
