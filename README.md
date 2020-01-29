@@ -2,11 +2,25 @@
 
 # LaRon Appgini Dashboard Framework
 >This is an appgini dashboard framework that uses adminLTE to easily generate an admin dashboard with nice looking cards for your appgini applications.You can easily customize the look and feel to suit your needs.Feel free to do whatever you want with it.Getting started is easy in two simple steps.
-### Change Log
--Add new feature on cards so that you can quickly add new erecord from the home page <br>
--Added Tooltips on cards view details and add new <br>
--You can now customize the links of your cards and menu items in the configuration file using the $DVlink variable.<br>
--Added option to hide or show the label counters on the side nav menu from the configuration file.<br>
+### New And Important Functions
+## A List of most important functions you may need to use in your application dashbaord interface.
+-LaRonCustomTableCard("Color","Icon","Name","Count","Link");<br>
+-LaRonDataCard("color","name","icon","value");<br>
+-LaRonDataCard2("color","name","icon","value");<br>
+-LaRonBox("color","title","body");<br>
+-LaRonAlert("color","icon","title","content");<br>
+-LaRonCallout("color","title","content");<br>
+-LaRonModal("color","modalID","btntext","title","body");<br>
+-LaRonValues("query");<br>
+-LaRonValue("query");<br>
+-LaRonSQL("query");<br>
+-LaRonBarChart($title,$subtitle,$data);<br>
+-LaRonDonutChart($title,$chartHeight,$chartWidth,$data);<br>
+-LaRonPieChart($title,$is3D,$chartHeight,$chartWidth,$data);<br>
+-LaRonSplitButton($btnType,$btnText,$dropdownMenu);<br>
+-LaRonSocialButton($text,$link,$type,$size);<br>
+-LaRonAppButton($btnName,$link,$icon);<br>
+-LaRonAppButtonBadge($btnName,$icon,$link,$counter,$color);<br>
 
 >## Getting started
  1.Copy the laronlte.zip file into your appgini project directory and extract it in there.
